@@ -35,7 +35,7 @@ function check1(){
     else{
         i_score = i_score-1
         document.getElementById("iscore").innerHTML = "&#128175 your score:"+ i_score
-        document.getElementById("guess").innerHTML = "ahh too close"
+        document.getElementById("guess").innerHTML = "Ahh too close"
     }
     document.getElementById("get").value=''
 }
