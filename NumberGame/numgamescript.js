@@ -17,7 +17,7 @@ function check(){
 
 function check1(){
     var numIn = document.getElementById("get").value
-    ran = 5 //= Math.floor(Math.random()*10+1)
+    ran = 5 // Math.floor(Math.random()*10+1)
     
 
     if (numIn == ran){
