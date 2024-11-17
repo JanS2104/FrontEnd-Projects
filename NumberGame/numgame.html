@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="numgame.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    
+    <div class="top-div">
+      
+        <div class="one-div">Guess My Number !</div>
+        <div class="line-div"><hr></div>
+        <center>
+        <div class="ques-div">?</div>
+        </center>
+        <div ><p class="iscore-div" id = "iscore">&#128175 Initial Score: 10</p>
+
+        <P class="hscore-div" id = "hscore">&#9971 Highest Score: 0</P></div>
+           
+        <div ><P class="guess-div" id="guess">Start guessing ...</P></div>
+
+        <div class="range-div">(Between 1 and 10)</div>
+
+        <div class="input-div"><input id="get" autocomplete="off"></div>
+
+        <div class="c-div"><button id="b1" onclick="check()">Check !</button></div>
+        <div class="t-div"><button id="b1" onclick="location.reload()">Try Again !</button></div>
+    </div>
+    <canvas id ="confetti"></canvas>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="numgamescript.js"></script>
+</body>
+
+
+
+
+
+</html>
+
+
