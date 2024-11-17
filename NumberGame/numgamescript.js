@@ -3,7 +3,7 @@ var i_score = 10
 var highScore = 0
 const jsConfetti = new JSConfetti()
 
-var ran //= //Math.floor(Math.random()*10+1)
+var ran 
 
 function check(){
     if (i_score <=0){
@@ -17,7 +17,7 @@ function check(){
 
 function check1(){
     var numIn = document.getElementById("get").value
-    ran = 5
+    ran = 5 //= Math.floor(Math.random()*10+1)
     
 
     if (numIn == ran){
